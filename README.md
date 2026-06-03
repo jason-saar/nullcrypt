@@ -5,13 +5,18 @@ A concurrent TCP server implementing the Vigenère cipher, supporting both encry
 ## Usage
 
 Start the server:
-    nullcrypt_server <port>
+```
+nullcrypt_server <port>
+```
 
 Encrypt a file:
-    nullcrypt_client -e textfile keyfile <port>
-
+```
+nullcrypt_client -e textfile keyfile <port>
+```
 Generate a key:
-    keygen <length> > keyfile
+```
+keygen <length> > keyfile
+```
 
 ## Details
 
